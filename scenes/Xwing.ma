@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Xwing.ma
-//Last modified: Mon, Nov 28, 2016 12:53:05 PM
+//Last modified: Mon, Nov 28, 2016 12:53:55 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -12,8 +12,8 @@ fileInfo "osv" "Mac OS X 10.11.6";
 fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "215483FC-42EF-6FC4-10C0-D4B203565A06";
-	setAttr ".t" -type "double3" -0.82308527101409568 -0.91768604944059384 4.3594168795074664 ;
-	setAttr ".r" -type "double3" 18.461645647685177 61209.401723147508 -4.0298249866498164e-16 ;
+	setAttr ".t" -type "double3" -10.182286630334005 10.001309425213467 -16.788624317925532 ;
+	setAttr ".r" -type "double3" -28.938354352327789 61407.801723146957 0 ;
 	setAttr ".rp" -type "double3" 4.4408920985006262e-16 -1.1102230246251565e-16 8.8817841970012523e-16 ;
 	setAttr ".rpt" -type "double3" 3.9361393293749425e-16 8.1071664310825446e-16 -1.1619348268676239e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
@@ -21,7 +21,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	setAttr -k off ".v";
 	setAttr ".rnd" no;
 	setAttr ".fl" 62.806709265405985;
-	setAttr ".coi" 3.80231564681878;
+	setAttr ".coi" 19.740435299458102;
 	setAttr ".ow" 10.860410350765466;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
